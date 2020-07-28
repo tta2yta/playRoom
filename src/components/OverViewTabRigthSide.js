@@ -7,10 +7,10 @@ export default function OverViewTabRigthSide() {
             <div className="btnjoin-tour"><button className=" btntourn"><b>+</b> Join Tournament</button></div>
            <div><h4>Prizes</h4></div>
             <ul>
-               <li>1st</li>
-               <li>2nd</li>
-               <li>3st</li>
-               <li>4th-10th</li>
+               <li><tt>&nbsp;&nbsp;1st</tt></li>
+               <li><tt>&nbsp;&nbsp;2nd</tt></li>
+               <li><tt>&nbsp;&nbsp;3rd</tt></li>
+               <li><tt>&nbsp;&nbsp;4th-10th</tt></li>
             </ul>
             
         </div>

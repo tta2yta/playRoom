@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function OverViewTabMidSide() {
     return (
-        <div className="row overviewmiddletab ">
+        <div className="row overviewmiddletab">
             <div className="center-block">
             <div col-12 col-sm-12 col-md-6 col-lg-6>
                 <div className="round-div">server</div>

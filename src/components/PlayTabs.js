@@ -1,5 +1,6 @@
 import React from 'react'
 import OverViewTab from './OverViewTab'
+import BracketsTab from './BracketsTab'
 
 export default function PlayTabs() {
     return (
@@ -30,7 +31,7 @@ export default function PlayTabs() {
                      <OverViewTab />
                     </div>
                     <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                      BBBBBBBB
+                      <BracketsTab />
                     </div>
                     <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                       CCCCCC
