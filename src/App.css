@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: blueviolet;
+  color : black;
 }
 
 .main-section {
@@ -12,6 +13,10 @@ body{
 .navbar{
   margin: 0;
   background-color: inherit;
+  color : black;
+}
+.nav-playtab div > a, .navbar-nav a{
+  color : black;
 }
 .navbar ul li a{
   margin-right: 2em;

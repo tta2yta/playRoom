@@ -9,7 +9,7 @@ export default function PlayTabs() {
           <span>Solo noobs-ARG B03 classic maps &nbsp; &nbsp;{`>`}&nbsp;</span>
           <span>Team Alpha vs Team Beta &nbsp; &nbsp;</span>
           </div>
-            <nav>
+            <nav className="nav-playtab">
                     <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                       <a className="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">OverView</a>
                       <a className="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Brackets</a>
