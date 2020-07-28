@@ -7,7 +7,7 @@ export default function BracketsTab() {
             <div>
                 <div>
                     <ul>
-                        <li></li>
+                        <li>bbb</li>
                         <li></li>
                     </ul>
                 </div>
