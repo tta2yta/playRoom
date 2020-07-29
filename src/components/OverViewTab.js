@@ -19,7 +19,7 @@ export default function OverViewTab() {
             <div className="col-12 col-lg-4">
                 <OverViewTabRightSide />
             </div>
-            <hr/>
+            <hr className="footer"/>
           
         </div>
         <div className="row">

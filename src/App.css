@@ -1,28 +1,74 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: blueviolet;
+  background-image:url('/assets/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
   font-family : DIN;
 	font-weight : bold;
 	font-size : 15px;
-	color : rgb(0, 0, 0);
+	color : rgb(255,255,255);
 }
 
 .main-section {
-  background-color: darkgray;
+  background-color:transparent;
   margin: 0;
   padding: 0;
+  
+}
+.section-playtab{
+  border: 1.2px solid rgb(59, 9, 105);
 }
 .navbar{
   margin: 0;
   background-color: inherit;
   color : black;
 }
+.nav-playtab div{
+  width: 80%;
+  border-bottom-color: transparent;
+  margin:0;
+  padding: 0;
+}
+
+#nav-home-tab, #nav-round1-tab{
+background-color: transparent;
+}
+
+.nav-tabs a{
+  border-bottom-color: red;
+}
 .nav-playtab div > a, .navbar-nav a{
-  color : black;
+  font-family : DIN;
+	font-weight : bold;
+	font-size : 15px;
+	color : rgb(255,255,255);
+
 }
 .navbar ul li a{
   margin-right: 2em;
+}
+
+.recomm{
+  position: absolute;
+  right:0;
+  margin-top: -25px;
+
+}
+hr.hr-nav{
+margin-top: -10px;
+background-color:rgb(59, 9, 105);
+} 
+.hr-nav-div{
+  margin-top: 10px;
+}
+.recomm button{
+  border:1px solid #333;
+  border-radius: 15px;
+  margin-bottom :20px;
+  display: block-inline;
+  background-color: rgb(70, 14, 122);
+  color: white;
 }
 
 .has-search .form-control {
@@ -39,11 +85,26 @@ input[type="text"] {
   height: 30px;
   border-radius: 30px;
   border: 1px solid #ccc;
-
-  
+  background-color: transparent;
     margin-top: 10px;
+    color: white;
+   }
+   .fa fa-search {
+     color: white;
    }
 
+   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+  }
 
 .has-search .form-control-feedback {
   position: absolute;
@@ -62,6 +123,8 @@ input[type="text"] {
   height: 30px;
   border: 1px solid #ccc;
   border-radius: 30px;
+  background-color: transparent;
+  color:white;
 }
 .img_text_desc, .img_solo { 
   position: relative; 
@@ -102,7 +165,9 @@ input[type="text"] {
   width: 100%;
   padding: 40px 20px;
 }
-
+.main-playtabs{
+  width: 80%;
+}
 
 .img_text_desc{
   display: block;
@@ -116,7 +181,7 @@ input[type="text"] {
 .overviewtabrigthside ul li{
   list-style:none;
   margin-bottom: 20px;
-  border-bottom:1px solid #000;outline:none;
+  border-bottom:1px solid rgb(70, 14, 122);outline:none;
   width: 80%;
 }
 
@@ -137,8 +202,8 @@ input[type="text"] {
   margin-bottom: 20px;
 }
 .btntourn, .partcipantsfooter {
-  background-color: #4CAF50; /* Green */
-  border: none;
+  background-color: rgb(70, 14, 122);;
+  border: 1px solid;
   color: white;
   padding: 10px;
   text-align: center;
@@ -149,9 +214,11 @@ input[type="text"] {
   cursor: pointer;
   border-radius: 15px;
 }
-
-hr{
-  color: #4CAF50;
+.partcipantsfooter {
+background-color: transparent;
+}
+hr.footer{
+ background-color: rgb(59, 9, 105);
   width: 100%;
   text-align: left;
   margin-left: 0;
@@ -169,6 +236,26 @@ hr{
 .overviewmiddletab {
   margin: 0;
   padding: 0;
+}
+
+/*Matches Tab*/
+.opponets{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.succ-team, .fail-team{
+  display: inline;
+}
+.succ-team span, .fail-team span{
+  border:1px solid #333;
+  padding:10px;
+  width: 50px;
+  height: 50px;
+}
+.fail-team label{
+  width: 10%;
 }
 
 
