@@ -4,7 +4,7 @@ body{
   background-image:url('/assets/images/bg.jpg');
   background-size: cover;
   background-position: center;
-   /* background-color: rgb(24, 2, 75);  */
+   background-color: rgb(24, 2, 75); 
   font-family : DIN;
 	font-weight : bold;
 	font-size : 15px;
@@ -95,24 +95,25 @@ input[type="text"] {
     margin-top: 10px;
     color: white;
    }
-   .fa fa-search {
+   .fa-search {
      color: white;
+     margin-top: 5px;
    }
+ input[type="text"]::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+    padding-left: 20px;
+    font-style: italic;
+} 
 
-   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: red;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: red;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: red;
-  }
+input[type="email"]:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+  color: white; 
+} 
 
-.has-search .form-control-feedback {
+input[type="email"]::-ms-input-placeholder { /* Microsoft Edge */ 
+  color: white;
+} 
+
+   .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
   display: block;
@@ -151,6 +152,8 @@ input[type="text"] {
   position: absolute;
   left :0;
   top:0;
+  width: 100%;
+  height: auto;
 }
 
 .img-desc { 
@@ -498,6 +501,17 @@ td.td-player-rem{
     margin-right: auto;
    
   }
+  .img_logo_sm{
+    visibility: hidden;
+  }
+  .img_logo_left{
+    visibility: hidden;
+  }
+  .img_logo_right{
+    position: absolute;
+    visibility: hidden;
+    top:20%;
+  }
  
 }
 @media screen and (max-width: 768px) {
@@ -510,16 +524,22 @@ td.td-player-rem{
   width: 100%;
  display: block;
 }
- 
+.img_logo_right{
+  position: absolute;
+  top:5%;
+}
+.has-search{
+  display: inline-block;
+  width: 100;
+}
+
+} 
 @media screen and (max-width: 780px) {
   .partcipantsfooter{
     font-size: 1.2em;
   }
 }
 
-
-  
-}
 @media screen and (max-width: 992px) {
   .time-rec, .overviewtabrigthside {
     display: block;
