@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function MatchGameOneTab() {
     return (
+        <>
         <div className="row gameone">
             <div className="col-md-6 col-lg-6">
             <h4>Team Alpha Players</h4>
@@ -32,53 +33,7 @@ export default function MatchGameOneTab() {
                 </tr>
 
             </table>
-                {/* <ul>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true"></i><span className="game-use-name">Try</span>
-                        <span className="symb-k">K</span ><span className="symb-d">D</span>
-                        </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true"></i><span>meyren</span>
-                    <span className="symb-k">K</span ><span className="symb-d">D</span>
-                    </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">niceshot
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                    </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">rufuswild
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                    </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">proltk
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                    </li>
-                </ul>
-            </div>
-            <div className="col-md-6 col-lg-6">
-                <h4>Team Alpha Players</h4>
-                <ul>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">notail
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                        </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">exitone
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                    </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">kraw
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                    </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">pepejames
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                    </li>
-                    <li>
-                    <i class="fa fa-user-circle-o" aria-hidden="true">laviboranegra
-                        <span><strong>K</strong><strong>D</strong></span></i>
-                    </li>
-                </ul> */}
+               
 
             </div>
             <div className="col-md-6 col-lg-6">
@@ -114,5 +69,126 @@ export default function MatchGameOneTab() {
                 </div>
             
         </div>
+<br /><br/><br /><br/>
+
+        <div className="row gamematchToday-Tomm">
+            
+            <div className="col-md-12 col-lg-12">
+                <h5 className="today">Today</h5>
+            <table className="tblgamematchToday-Tomm" width="100%">
+              
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta</td>
+                <td className="td-player-los" width="5%">LOSE</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"><i class="fa fa-check" aria-hidden="true"></i></td>
+                </tr>
+
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta </td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"><i class="fa fa-check" aria-hidden="true"></i></td>
+                </tr>
+
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta</td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"><i class="fa fa-check" aria-hidden="true"></i></td>
+                </tr>
+
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta </td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"><i class="fa fa-check" aria-hidden="true"></i></td>
+                </tr>
+
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20%" align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta</td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%">&nbsp;</td>
+                </tr>
+
+            </table>
+            </div>
+            </div>
+
+            <div className="row gamematchToday-Tomm">
+            
+            <div className="col-md-12 col-lg-12">
+                <h5 className="tommor">Tommorow</h5>
+            <table className="tblgamematchToday-Tomm" width="100%">
+              
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta</td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"></td>
+                </tr>
+
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta </td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"></td>
+                </tr>
+
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta</td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"></td>
+                </tr>
+
+                <tr>
+                <td className="" width="17%">&nbsp;</td>
+                <td className="td-player-vic"width="10%" > VICTORY</td>
+                <td  className="td-player-vicg" width="10%"> Team Alpha</td>
+                <td  className="td-player-resu" width="20% " align="center"> 2 : 1 </td>
+                <td className="td-player-vicf" width="10%">Team Beta </td>
+                <td className="td-player-los" width="5%">&nbsp;</td>
+                <td className="" width="18%">&nbsp;</td>
+                <td className="td-player-nike" width="10%" align="right"></td>
+                </tr>
+
+            </table>
+            </div>
+            </div>
+        </>
     )
 }

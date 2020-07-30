@@ -142,6 +142,16 @@ input[type="text"] {
   position: absolute;
   right :0;
 }
+.img_logo_left{
+  position: absolute;
+  left :60%;
+  top:15%;
+}
+.img_logo_right{
+  position: absolute;
+  left :0;
+  top:0;
+}
 
 .img-desc { 
   position: absolute; 
@@ -430,6 +440,44 @@ td.td-player-rem{
   margin-right: 0;
 }
 
+/*** Match gamematchToday-Tomm***/
+.gamematchToday-Tomm{
+  width:100%;
+}
+.tblgamematchToday-Tomm{
+  width: 99%;
+  margin-left: 20px;
+}
+
+.tblgamematchToday-Tomm tr{
+  width: 100%;
+  border-bottom:1px solid  rgb(59, 9, 105);
+}
+.tblgamematchToday-Tomm > tr:first-child{
+  width: 100%;
+  border-top:1px solid  rgb(59, 9, 105);
+}
+
+.tblgamematchToday-Tomm tr td{
+  padding-top: 20px;
+  vertical-align: top;
+}
+.td-player-vic{
+  color:green;;
+}
+.td-player-los{
+  color:red;;
+}
+.td-player-nike{
+  color: rgb(51,51,112);
+}
+.today{
+  margin-left: 20px;
+}
+.tommor{
+  margin-left: 20px;
+  margin-top: 20px;
+}
 
 
 

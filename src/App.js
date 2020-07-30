@@ -28,13 +28,18 @@ function App() {
       <div className="row">
         <div className=" col-12 col-sm-2 col-md-2 col-lg-2 ">
         <img className="img_logo_sm" src={`${process.env.PUBLIC_URL}/assets/images/logo_sm.png`} alt="Card image cap" />
+        <img className="img_logo_left" src={`${process.env.PUBLIC_URL}/assets/images/left-logo.png`} alt="Card image cap" />
+        
+       
         </div>
         <div className="main-section col-sm-8 col-md-8 col-lg-8">
           <NavBar />
           <div className="section-playtab"><PlayTab /></div>
           
         </div>
-        <div className="col-sm-2 col-md-2 col-lg-2"></div>
+        <div className="col-sm-2 col-md-2 col-lg-2">
+        <img className="img_logo_right" src={`${process.env.PUBLIC_URL}/assets/images/right-logo.png`} alt="Card image cap" />
+        </div>
       </div>
       </div>
   );
