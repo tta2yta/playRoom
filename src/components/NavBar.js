@@ -4,7 +4,7 @@ import React from 'react'
 export default function NavBar() {
     return (
         
-    <nav className="navbar navbar-expand-sm">
+    <nav className="navbar navbar-expand-sm main-tab">
           
         <ul className="navbar-nav">
             <li className="nav-item">

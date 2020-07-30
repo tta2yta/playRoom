@@ -14,6 +14,7 @@ body{
 .main-section {
   /* background-color:#333366; */
   background-color:transparent;
+  /* background-color: rgba(51,51,102,.2); */
   margin: 0;
   padding: 0;
   
@@ -23,14 +24,17 @@ body{
 }
 .navbar{
   margin: 0;
-  background-color: inherit;
-  color : black;
+  /* background-color: inherit;
+  color : black; */
 }
 .nav-playtab div{
   width: 80%;
   border-bottom-color: transparent;
   margin:0;
   padding: 0;
+}
+.main-tab ul li a{
+  font-size: 20px;
 }
 
 #nav-home-tab, #nav-round1-tab{
@@ -329,7 +333,8 @@ td.td-vic-res{
 
 /*****MatchGameOneTab******/
 table.tblgame1{
-  width: 100%;
+  width: 95%;
+  margin-left: 10px;
 }
 
 .gameone ul{
@@ -386,6 +391,47 @@ color: green;
   width: 100%;
   border-top:1px solid  rgb(59, 9, 105);
 }
+
+
+/*****PlayersTab******/
+.tblgameplayer{
+  width: 95%;
+  margin-left: 10px;
+}
+
+.tblgameplayer tr{
+  width: 100%;
+  border-bottom:1px solid  rgb(59, 9, 105);
+}
+
+.tblgameplayer tr td{
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+td.td-player-name{
+  width: 20%;
+}
+
+td.td-player-team{
+  width: 20%;
+}
+
+td.td-player-k{
+  width: 5%;
+  margin-left: 100%;
+}
+td.td-player-d{
+  width: 5%;
+  margin-right: 0;
+}
+td.td-player-rem{
+  width: 50%;
+  margin-right: 0;
+}
+
+
+
 
 
 @media screen and (max-width: 576px) {

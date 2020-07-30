@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import OverViewTab from './OverViewTab'
 import BracketsTab from './BracketsTab'
 import MatchesTab from './MatchesTab'
+import PlayersTab from './PlayersTab';
 
 export default function PlayTabs() {
 
@@ -17,7 +18,7 @@ export default function PlayTabs() {
  useEffect(()=>{
 
   if(! flag){
-  document.body.style.opacity=opcVal;
+  document.body.style.opacity= opcVal;
   alert("Opacity set to " + opcVal * 100 + "%");
   }
  })
@@ -60,7 +61,7 @@ export default function PlayTabs() {
                      <MatchesTab />
                     </div>
                     <div className="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-                      DDDDDDD
+                      <PlayersTab />
                     </div>
                   </div>
         </div>
