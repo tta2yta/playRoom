@@ -1,9 +1,10 @@
 body{
   margin: 0;
   padding: 0;
-  background-image:url('/assets/images/bg.jpg');
+  /* background-image:url('/assets/images/bg.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  background-color: rgb(24, 2, 75);
   font-family : DIN;
 	font-weight : bold;
 	font-size : 15px;
@@ -36,7 +37,7 @@ background-color: transparent;
 }
 
 .nav-tabs a{
-  border-bottom-color: red;
+  border-bottom-color:transparent;
 }
 .nav-playtab div > a, .navbar-nav a{
   font-family : DIN;
@@ -239,25 +240,129 @@ hr.footer{
 }
 
 /*Matches Tab*/
-.opponets{
-  display: block;
-  width: 100%;
-  text-align: center;
+.matchtab{
+margin:auto;
+}
+.matchleft{
+padding-left: 15%;
 }
 
-.succ-team, .fail-team{
-  display: inline;
-}
-.succ-team span, .fail-team span{
+
+.tes div span{
   border:1px solid #333;
-  padding:10px;
+  padding:15px;
   width: 50px;
   height: 50px;
-}
-.fail-team label{
-  width: 10%;
+ 
 }
 
+.tes{
+  position: relative;
+  padding:15px;
+  background-color: transparent;
+}
+.row.matchleft, .row.matchright{
+  padding:0;
+}
+.matchleft  ul{
+padding-right: 20px;
+list-style: none;
+}
+.matchright  ul{
+  list-style: none;
+  padding-left: 20px;
+}
+.matchright  span{
+  margin-left: 20px;
+}
+.tes > div{
+  margin-top: 10px;
+  padding:0;
+}
+.sc-r{
+  position: absolute;
+  bottom: 45%;
+  left:0px;
+}
+.sc-l{
+  position: absolute;
+  bottom: 40%;
+ padding-left: 15px;
+}
+
+/*******MatchGameTb*******/
+
+.nav-playmatchtab{
+  width: 40%;
+  border-bottom-color: transparent;
+  margin:0;
+  padding: 0;
+}
+.nav-playmatchtab div{
+  border-bottom-color: transparent;
+}
+.nav-playmatchtab div > a{
+  padding-right: 10px;
+}
+
+/*****MatchGameOneTab******/
+table.tblgame1{
+  width: 100%;
+}
+.gameone ul{
+  list-style: none;
+}
+.gameone ul li{
+  position: relative;
+  margin-bottom: 20px;
+  width: 80%;
+  display: block;
+  border-bottom:1px solid  rgb(59, 9, 105);
+}
+.gameone ul li:first-child{
+  padding-top:20px;
+  margin-bottom: 20px;
+  border-top:1px solid  rgb(59, 9, 105);
+}
+.gameone ul li span{
+  width: 150px;
+  color: red;
+}
+
+.tblgame1 tr td{
+  padding-top: 20px;
+  vertical-align: top;
+  
+}
+.tblgame1 tr > td:first-child{
+  padding-left: 20px;
+  /* padding-right: 50%; */
+  width: 60%;
+  }
+td.td-k, td.td-d{
+  width: 20%;
+}
+.symb-k{
+  /* padding-left: 20px;
+padding-right: 50px; */
+width: 100%;
+color: red;
+}
+.symb-d{
+  /* padding-left: 50px;
+padding-right: 30px; */
+width: 100%;
+color: green;
+}
+
+.tblgame1 tr{
+  width: 100%;
+  border-bottom:1px solid  rgb(59, 9, 105);
+}
+.tblgame1 > tr:first-child{
+  width: 100%;
+  border-top:1px solid  rgb(59, 9, 105);
+}
 
 
 @media screen and (max-width: 576px) {
