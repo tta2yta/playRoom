@@ -1,10 +1,10 @@
 body{
   margin: 0;
   padding: 0;
-  background-image:url('/assets/images/bg.jpg');
+  /* background-image:url('/assets/images/bg.jpg');
   background-size: cover;
-  background-position: center;
-  /* background-color: rgb(24, 2, 75); */
+  background-position: center; */
+   background-color: rgb(24, 2, 75); 
   font-family : DIN;
 	font-weight : bold;
 	font-size : 15px;
@@ -292,6 +292,27 @@ list-style: none;
 }
 
 /*******MatchGameTb*******/
+.tblgameres{
+  border:none;
+  width:20%;
+}
+td.td-vic-bl span{
+  width: 100%;
+  border: 1px solid #333;
+  height: 100%;
+}
+td.td-vic{
+  width:70% ;
+}
+td.td-vic-bl{
+  width:22% ;
+  padding-right: 0;
+  border:1px solid;
+}
+td.td-vic-res{
+  width:8%;
+
+}
 
 .nav-playmatchtab{
   width: 40%;
@@ -310,6 +331,7 @@ list-style: none;
 table.tblgame1{
   width: 100%;
 }
+
 .gameone ul{
   list-style: none;
 }
