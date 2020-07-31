@@ -19,7 +19,7 @@ export default function PlayTabs() {
 
   if(! flag){
   document.body.style.opacity= opcVal;
-  alert("Opacity set to " + opcVal * 100 + "%");
+ // alert("Opacity set to " + opcVal * 100 + "%");
   }
  })
 
