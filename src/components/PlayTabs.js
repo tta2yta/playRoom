@@ -6,22 +6,22 @@ import PlayersTab from './PlayersTab';
 
 export default function PlayTabs() {
 
-  const [opcVal, setOpcVal]=useState(10);
-  const [flag, setFlag]=useState(true)
+//   const [opcVal, setOpcVal]=useState(10);
+//   const [flag, setFlag]=useState(true)
 
-  const setOpcityVal=(opval)=>{
-    setOpcVal(opval);
-    setFlag(false);
-  }
+//   const setOpcityVal=(opval)=>{
+//     setOpcVal(opval);
+//     setFlag(false);
+//   }
 
 
- useEffect(()=>{
+//  useEffect(()=>{
 
-  if(! flag){
-  document.body.style.opacity= opcVal;
- // alert("Opacity set to " + opcVal * 100 + "%");
-  }
- })
+//   if(! flag){
+//   document.body.style.opacity= opcVal;
+//  // alert("Opacity set to " + opcVal * 100 + "%");
+//   }
+//  })
 
 
     return (
@@ -33,9 +33,9 @@ export default function PlayTabs() {
           </div>
             <nav className="nav-playtab">
                     <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                      <a className="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" onClick={()=>setOpcityVal(0.5)}>OverView</a>
-                      <a className="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" onClick={()=>setOpcityVal(0.7)}>Brackets</a>
-                      <a className="nav-item nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" onClick={()=>setOpcityVal(1)}>Matches</a>
+                      <a className="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" >OverView</a>
+                      <a className="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" >Brackets</a>
+                      <a className="nav-item nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" >Matches</a>
                       <a className="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">Players</a>
                     </div>
                 </nav>
