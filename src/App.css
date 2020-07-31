@@ -79,6 +79,7 @@ background-color:rgb(59, 9, 105);
 
 .has-search .form-control {
   padding-left: 2.375rem;
+  /* margin-left: 30%; */
 }
 
 .curr-menu{
@@ -311,26 +312,32 @@ list-style: none;
 /*******MatchGameTb*******/
 .tblgameres{
   border:none;
-  width:20%;
+  width:40%;
+  margin:auto;
+  margin-bottom: 20px;
 }
-td.td-vic-bl span{
+/* .tblgameres tr, .tblgameres td{
+  border:1px solid;
+} */
+td.td-vic-bl span, td.td-fail-bl span{
   width: 100%;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
   height: 100%;
 }
-td.td-vic{
-  width:70% ;
+td.td-vic, td.td-fail{
+  width:25% ;
 }
-td.td-vic-bl{
-  width:22% ;
+td.td-vic-bl, td.td-fail-bl{
+  width:15% ;
   padding-right: 0;
   border:1px solid;
 }
-td.td-vic-res{
-  width:8%;
-
+td.td-vic-res, td.td-vic-fail{
+  width:4%;
 }
-
+td.td-vic-colon{
+  width:2%;
+}
 .nav-playmatchtab{
   width: 40%;
   border-bottom-color: transparent;
@@ -465,10 +472,10 @@ td.td-player-rem{
   padding-top: 20px;
   vertical-align: top;
 }
-.td-player-vic{
+.td-player-vic, .td-vic{
   color:green;;
 }
-.td-player-los{
+.td-player-los, .td-fail{
   color:red;;
 }
 .td-player-nike{
@@ -512,8 +519,59 @@ td.td-player-rem{
     visibility: hidden;
     top:20%;
   }
+
+  .tblgameres{
+    /* border:1px solid; */
+    width:95%;
+    margin:auto;
+    margin-bottom: 20px;
+  }
  
 }
+
+@media screen and (max-width: 833px) {
+  .tblgameres{
+    /* border:1px solid; */
+    width:80%;
+     margin:auto;
+     margin-bottom: 20px;
+  }
+  .main-tab ul{
+    display: block;
+  }
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    top: 60px;
+  }
+
+  .nav-playtab div{
+    display: block;
+  }
+  .nav-item{
+width: 20%;
+  }
+
+  input[type="text"] {
+  
+    /* height: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+      margin-top: 10px;
+      color: white; */
+      width: 150px;
+     }
+}
+
+
 @media screen and (max-width: 768px) {
 .overviewtabrigthside{
   display: block;
@@ -528,10 +586,10 @@ td.td-player-rem{
   position: absolute;
   top:5%;
 }
-.has-search{
+/* .has-search{
   display: inline-block;
   width: 100;
-}
+} */
 
 } 
 @media screen and (max-width: 780px) {

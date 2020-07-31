@@ -17,20 +17,16 @@ export default function NavBar() {
               <a className="nav-link" href="#">STORE</a>
             </li>
             
-        </ul>
-        <ul className="navbar-nav form-group has-search ml-auto">
-        <li className="nav-item ml-auto">
-        <span className="nav-item fa fa-search form-control-feedback"></span>
-                <input type="text" className="nav-link form-control" placeholder="Search" />
-            </li>
+            
         </ul>
         
-        {/* <ul className="navbar-nav form-group has-search ml-auto">
+        
+        <ul className="navbar-nav form-group has-search ml-auto">
          <li className="nav-item">
                 <span className="nav-item fa fa-search form-control-feedback"></span>
                 <input type="text" className="nav-link form-control" placeholder="Search" />
          </li>
-         </ul> */}
+         </ul>
          
     </nav>
             
