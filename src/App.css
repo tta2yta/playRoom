@@ -4,7 +4,7 @@ body{
   background-image:url('/assets/images/bg.jpg');
   background-size: cover;
   background-position: center;
-   /* background-color: rgb(24, 2, 75);  */
+  /* background-color: rgb(24, 2, 75);  */
   font-family : DIN;
 	font-weight : bold;
 	font-size : 15px;
@@ -56,14 +56,16 @@ background-color: transparent;
 }
 
 .recomm{
-  position: absolute;
-  right:0;
+  /* position: absolute; */
+  float: right;
+  right:100;
   margin-top: -25px;
 
 }
 hr.hr-nav{
-margin-top: -10px;
+margin-top: 10px;
 background-color:rgb(59, 9, 105);
+/* background-color: red; */
 } 
 .hr-nav-div{
   margin-top: 10px;
@@ -339,7 +341,7 @@ td.td-vic-colon{
   width:2%;
 }
 .nav-playmatchtab{
-  width: 40%;
+  width: 70%;
   border-bottom-color: transparent;
   margin:0;
   padding: 0;
@@ -453,6 +455,7 @@ td.td-player-rem{
 /*** Match gamematchToday-Tomm***/
 .gamematchToday-Tomm{
   width:100%;
+  border: 1px soli red;
 }
 .tblgamematchToday-Tomm{
   width: 99%;
@@ -488,14 +491,73 @@ td.td-player-rem{
   margin-left: 20px;
   margin-top: 20px;
 }
+.nav-playtab .nav-tabs {
+  width: 60%;
+}
+
+.nav-playtab .nav-tabs a{
+  width: 20px;
+}
+
+@media screen and (max-width: 346px) {
+  .fa-search {
+    color: white;
+    margin-top: 92px;
+  }
+  .gamematchToday-Tomm{
+    width:100%;
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0;
+  }
+  .tblgamematchToday-Tomm{
+    width: 100%;
+    margin-left: -10px;
+    padding-left: -10px;
+    font-size: 0.7em;
+  }
+  .td-player-sps2{
+width: 5%;
+  }
+  .td-player-resu{
+    width: 35%;
+  }
+  .td-player-sps1{
+    width: 5%;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .gamematchToday-Tomm{
+    width:100%;
+    /* border: 1px solid red; */
+    margin: 0px;
+    padding: 0;
+  }
+  .tblgamematchToday-Tomm{
+    width: 100%;
+    margin-left: -10px;
+    font-size: 0.9em;
+  }
+  .td-player-sps2{
+width: 16%;
+  }
+  .td-player-resu{
+    width: 35%;
+  }
+  .td-player-sps1{
+    width: 5%;
+  }
 
 
+}
 
 
 @media screen and (max-width: 576px) {
 
   input[type="text"] {
-  width: 100px;
+  width: 80px;
     height: 30px;
     border-radius: 30px;
     border: 1px solid #ccc;
@@ -526,6 +588,10 @@ td.td-player-rem{
     margin:auto;
     margin-bottom: 20px;
   }
+
+  .nav-playtab .nav-tabs a{
+  width: 80px;
+}
  
 }
 
@@ -551,13 +617,18 @@ td.td-player-rem{
     color: #aaa;
     top: 60px;
   }
+  .nav-playtab{
+    margin-bottom: 20px;
+  }
 
-  .nav-playtab div{
+  .nav-playtab div, .nav-playmatchtab  div{
     display: block;
   }
-  .nav-item{
-width: 20%;
+  
+  .nav-playtab .nav-tabs a{
+    width: 85px;
   }
+ 
 
   input[type="text"] {
   
@@ -586,10 +657,9 @@ width: 20%;
   position: absolute;
   top:5%;
 }
-/* .has-search{
-  display: inline-block;
-  width: 100;
-} */
+.nav-playtab .nav-tabs a{
+  width: 80px;
+}
 
 } 
 @media screen and (max-width: 780px) {
@@ -607,6 +677,12 @@ width: 20%;
   .overviewmiddletab {
     width: 100%;
    display: block;
+  }
+  .nav-playmatchtab .nav-tabs {
+    width: 70%;
+  }
+  .nav-playmatchtab .nav-tabs a{
+    width: 85px;
   }
   
 }

@@ -31,12 +31,12 @@ export default function PlayTabs() {
           <span>Solo noobs-ARG B03 classic maps &nbsp; &nbsp;{`>`}&nbsp;</span>
           <span>Team Alpha vs Team Beta &nbsp; &nbsp;</span>
           </div>
-            <nav className="nav-playtab navbar-left">
+            <nav className="nav-playtab navbar-left navbar-light">
                     <div className="nav nav-tabs nav-fill navbar-left" id="nav-tab" role="tablist">
-                      <a className="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" >OverView</a>
-                      <a className="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" >Brackets</a>
-                      <a className="nav-item nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" >Matches</a>
-                      <a className="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">Players</a>
+                      <a className="nav-item nav-link " id="nav-OverViewTab-tab" data-toggle="tab" href="#OverViewTab" role="tab"  aria-selected="true" >OverView</a>
+                      <a className="nav-item nav-link" id="nav-BracketsTab-tab" data-toggle="tab" href="#BracketsTab" role="tab" aria-controls="BracketsTab" aria-selected="false" >Brackets</a>
+                      <a className="nav-item nav-link active" id="nav-MatchesTab-tab" data-toggle="tab" href="#MatchesTab" role="tab" aria-controls="BracketsTab" aria-selected="false" >Matches</a>
+                      <a className="nav-item nav-link" id="nav-PlayersTab-tab" data-toggle="tab" href="#PlayersTab" role="tab" aria-controls="BracketsTab" aria-selected="false">Players</a>
                     </div>
                 </nav>
                 <div className="recomm"><span>Ordenor por</span> <button>Recommendations</button></div>
@@ -51,16 +51,16 @@ export default function PlayTabs() {
                     </select>
                 </div>
                 <div className="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                    <div className="tab-pane fade  " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div className="tab-pane fade  " id="OverViewTab" role="tabpanel" aria-labelledby="nav-OverViewTab-tab">
                      <OverViewTab />
                     </div>
-                    <div className="tab-pane fade " id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div className="tab-pane fade " id="BracketsTab" role="tabpanel" aria-labelledby="nav-BracketsTab-tab">
                       <BracketsTab />
                     </div>
-                    <div className="tab-pane fade show active " id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div className="tab-pane fade show active " id="MatchesTab" role="tabpanel" aria-labelledby="nav-MatchesTab-tab">
                      <MatchesTab />
                     </div>
-                    <div className="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                    <div className="tab-pane fade" id="PlayersTab" role="tabpanel" aria-labelledby="nav-PlayersTab-tab">
                       <PlayersTab />
                     </div>
                   </div>

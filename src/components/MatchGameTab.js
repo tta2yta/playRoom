@@ -13,7 +13,7 @@ export default function MatchGameTab() {
                     </div>
                 </nav>
                 <div className="hr-nav-div"><hr className="hr-nav"/></div>
-                <div className="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div className="tab-content py-3 pl-0 pr-0 px-0 px-sm-0" id="nav-tabContent">
                     <div className="tab-pane fade  show active" id="nav-game1" role="tabpanel" aria-labelledby="nav-game">
                     <MatchGameOneTab />
                     </div>
